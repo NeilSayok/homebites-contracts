@@ -1,0 +1,41 @@
+// /vi/seller
+// POST
+
+{
+  "name": "String",
+  "business_name": "String",
+  "phone_number": "String",
+  "alternate_phone_number": "String",
+  "business_address": {
+    "address_line_1": "String",
+    "address_line_2": "String",
+    "address_line_3": "String",
+    "city": "String",
+    "state": "String",
+    "country": "String", // Hardcoded - IN
+    "pincode": "String",
+    "geo_location": {
+      "latitude": "String",
+      "longitude": "String"
+    }
+  },
+  "business_type": "String", // Enum - SELF,CATERER
+    "business_capacity": "Int", // How many users can they serve
+    "personal_address": {
+      "address_line_1": "String",
+      "address_line_2": "String",
+      "address_line_3": "String",
+      "city": "String",
+      "state": "String",
+      "country": "String", // Hardcoded - IN
+      "pincode": "String",
+      "geo_location": { // optional
+        "latitude": "String",
+        "longitude": "String"
+      }
+    },
+    "business_image": "String",
+    "personal_image": "String",
+    "business_experience_in_years": "Int",
+    "operation_center" : "String", // Enum - HOME,CLOUD_KITCHEN,RESTURANT,FOOD_TRUCK
+}
