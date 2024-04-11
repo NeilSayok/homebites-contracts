@@ -1,0 +1,21 @@
+{
+  "scrollable-row": {
+    "item": {
+      "column": { //column,row,grid
+        "CircularCard": {
+          "size": 40,
+          "background": "static_image", // static_image,solid-color, gradient-color
+          "border-color" : "#cc3d3d",
+          "border-thickness" : 2
+        },
+        "text":{
+            "alignment" : "center", // start, center, end 
+            "text-size" : 14,
+            "color" : "#cc3d3d"
+          }
+      },
+      "on-click" : "deeplink", //null,inbuilt , deepllink
+      "data" : "https://apiurl.com" // mandatory 
+    }
+  }
+}
